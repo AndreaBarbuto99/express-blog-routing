@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const port = 3000;
 
-const postsRouter = require("routers/dolci.js")
+const postsRouter = require("./routers/dolci.js")
 
 app.use(express.static("public"));
 
